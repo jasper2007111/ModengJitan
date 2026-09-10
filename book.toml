@@ -1,0 +1,6 @@
+[book]
+authors = ["Jasper Ji"]
+language = "en"
+multilingual = false
+src = "src"
+title = "摩登纪谭"
