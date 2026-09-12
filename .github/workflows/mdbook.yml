@@ -46,7 +46,7 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
       - name: Build sitemap
-        run: mdbook-sitemap-generator -d https://c2lang.com/ModengJitan/ -o book/sitemap.xml
+        run: mdbook-sitemap-generator -d http://c2lang.com/ModengJitan/ -o book/sitemap.xml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
