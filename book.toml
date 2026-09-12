@@ -5,8 +5,4 @@ multilingual = false
 src = "src"
 title = "摩登纪谭"
 
-[output.html]
-
-[output.sitemap]
-base-url = "https://c2lang.com/ModengJitan/"
 
