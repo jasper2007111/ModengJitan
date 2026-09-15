@@ -39,7 +39,7 @@ jobs:
           cargo install --version ${MDBOOK_VERSION} mdbook
           cargo install mdbook-sitemap
       - name: Intasll mdbook-sitemap-generator
-        run: cargo install --git https://github.com/graves/mdbook-sitemap-generator.git
+        run: cargo install --git https://github.com/jasper2007111/mdbook-sitemap-generator.git
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
